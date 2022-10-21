@@ -1,0 +1,85 @@
+.cyan-text {
+    color: #3292a6; 
+}
+.cyan-bg {
+    background: #3292a6; 
+}
+.cyan-border {
+    border-color: #3292a6 !important; 
+}
+.font {
+    font-size: 20px;
+}
+/* nav bar */
+
+nav li {
+    font-size: 22px;
+    padding: 5px;
+    color: black !important;
+}
+
+nav a:hover {
+    color: cyan-overlay !important;
+}
+
+.navbar {
+    box-shadow: 2px 2px 5px #3292a6;
+}
+
+/* home section */
+
+.home-section {
+    background: url('../img/mountains.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+
+}
+
+.cyan-overlay {
+    background: rgba(50,146,166,0.6);
+    height: 650px;
+}
+
+/* subscribe section */
+
+#subscribe .sub-btn {
+    background: #3292a6;
+}
+/* author section */
+.rounded-circle {
+    margin-top: -55px;
+}
+
+.author-card:hover {
+    color: white !important;
+    background: #3292a6;
+}
+.author-card a {
+    color: #3292a6;
+
+}
+.author-card:hover a {
+    color: white;
+
+}
+/* get in touch section */
+
+textarea {
+    resize : none;
+}
+/* footer section */
+
+footer {
+    background: #3292a6;
+    
+}
+
+@media (max-width: 500px){
+    h1 {
+        font-size:70px !important;
+    }
+    #touch {
+        padding-top: 0px !important;
+    }
+}
